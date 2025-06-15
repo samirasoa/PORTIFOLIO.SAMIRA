@@ -1,0 +1,30 @@
+
+
+:root{
+    --cor-principal:#6e859f;
+    --cor-secundaria:#284260;
+    --cor-destaque:#c92bfc;
+}
+
+body{
+    font-famaly: "Chakra Petch" , sans-serif;
+    color: var(--cor-principal);
+}
+
+    h1, h2, h5 {
+        color: var(--cor-secundaria)
+        font-weight: 700;
+    }
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+     a, .btn-link:hover {
+        color: var(--cor-principal)
+    }
+
+     a: hover {
+        color: var(--cor-destaque)
+    }
